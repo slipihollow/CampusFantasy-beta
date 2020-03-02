@@ -1,0 +1,62 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://player/gobelinnpc.gd" type="Script" id=1]
+[ext_resource path="res://ennemies/creatures/goblin.png" type="Texture" id=2]
+[ext_resource path="res://tiles/cerveza.png" type="Texture" id=3]
+
+[sub_resource type="Animation" id=1]
+resource_name = "service"
+length = 6.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1, 1.4, 2 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 6, 8, 10, 6 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("sprite2:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 7.24818, 21.6711 )
+
+[node name="gobelinnpc" type="KinematicBody2D"]
+script = ExtResource( 1 )
+TYPE = "NPC"
+
+[node name="sprite" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+vframes = 8
+hframes = 11
+frame = 9
+
+[node name="anim" type="AnimationPlayer" parent="."]
+anims/service = SubResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2( 6.22331, -2.42018 )
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="sprite2" type="Sprite" parent="."]
+position = Vector2( 1.31825, 16.1486 )
+texture = ExtResource( 3 )
