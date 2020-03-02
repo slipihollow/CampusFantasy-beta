@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Discover (online-audio-converter.com).wav-f118c65e84f1168334d84f16ff5a5931.sample"
+
+[deps]
+
+source_file="res://sounds/Discover (online-audio-converter.com).wav"
+dest_files=[ "res://.import/Discover (online-audio-converter.com).wav-f118c65e84f1168334d84f16ff5a5931.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
