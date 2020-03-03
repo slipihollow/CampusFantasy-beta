@@ -117,7 +117,6 @@ __meta__ = {
 [node name="hud" parent="." instance=ExtResource( 12 )]
 
 [node name="Control" type="Control" parent="."]
-visible = false
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -155,8 +154,8 @@ margin_top = -11.0
 margin_right = -11.0
 theme = ExtResource( 15 )
 bbcode_enabled = true
-bbcode_text = "Ici c'est l'Anthropole, le bâtiment principal des Lettres. Tu y trouveras une cafféteria, la librairie Basta, une papetterie qui vend des cigarettes, l'Epicentre (un magasin bio), et un bancomat. Il y a 1 QUESTIE à trouver ici."
-text = "Ici c'est l'Anthropole, le bâtiment principal des Lettres. Tu y trouveras une cafféteria, la librairie Basta, une papetterie qui vend des cigarettes, l'Epicentre (un magasin bio), et un bancomat. Il y a 1 QUESTIE à trouver ici."
+bbcode_text = "Ici, c'est l'Anthropole, le bâtiment principal des Lettres. Tu y trouveras une cafféteria, la librairie Basta, une papeterie qui vend des cigarettes, l'Epicentre (un magasin bio), et un bancomat. Tu as 1 QUESTIE à trouver ici."
+text = "Ici, c'est l'Anthropole, le bâtiment principal des Lettres. Tu y trouveras une cafféteria, la librairie Basta, une papeterie qui vend des cigarettes, l'Epicentre (un magasin bio), et un bancomat. Tu as 1 QUESTIE à trouver ici."
 script = ExtResource( 16 )
 
 [node name="Button" type="Button" parent="Control/PopupDialog"]

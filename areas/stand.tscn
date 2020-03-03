@@ -91,7 +91,6 @@ shape = SubResource( 1 )
 one_way_collision = true
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
-editor/display_folded = true
 
 [node name="Control" type="Control" parent="CanvasLayer"]
 anchor_top = 1.0
@@ -131,8 +130,8 @@ margin_top = -13.0
 margin_right = -11.0
 theme = ExtResource( 15 )
 bbcode_enabled = true
-bbcode_text = "Ici c'est l'Amphipôle (mais tout le monde dit que c'est Amphimax vu que les bâtiments sont collès). Lors de la journèe des premiéres, tous les stands des diffèrentes associations du campus sont dans ce couloir. Tu as 2 QUESTIES à trouver ici."
-text = "Ici c'est l'Amphipôle (mais tout le monde dit que c'est Amphimax vu que les bâtiments sont collès). Lors de la journèe des premiéres, tous les stands des diffèrentes associations du campus sont dans ce couloir. Tu as 2 QUESTIES à trouver ici."
+bbcode_text = "Ici, c'est l'Amphipôle (mais tout le monde dit que c'est Amphimax vu que les bâtiments sont collès). Lors de la journèe des premiéres, tous les stands des diffèrentes associations du campus sont dans ce couloir. Tu as 2 QUESTIES à trouver ici."
+text = "Ici, c'est l'Amphipôle (mais tout le monde dit que c'est Amphimax vu que les bâtiments sont collès). Lors de la journèe des premiéres, tous les stands des diffèrentes associations du campus sont dans ce couloir. Tu as 2 QUESTIES à trouver ici."
 script = ExtResource( 16 )
 
 [node name="Button" type="Button" parent="CanvasLayer/Control/PopupDialog"]

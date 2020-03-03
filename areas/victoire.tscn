@@ -47,7 +47,6 @@ tile_data = PoolIntArray( -65530, 20, 0, -65529, 20, 0, -65524, 23, 0, -65523, 2
 format = 1
 
 [node name="Control" type="Control" parent="."]
-editor/display_folded = true
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -86,8 +85,8 @@ margin_right = -11.0
 margin_bottom = 7.0
 theme = ExtResource( 7 )
 bbcode_enabled = true
-bbcode_text = "Fèlicitations ! Tu es maintenant immatriculè.e. L'inscription ètait la partie facile (attends de voir comment valider tout tes cours et tes crèdits). Si tu veux du challenge, va tout au sud-ouest de la map, tu y trouveras la salle ultime, le TLB comme on l'appelle dans le jargon. "
-text = "Fèlicitations ! Tu es maintenant immatriculè.e. L'inscription ètait la partie facile (attends de voir comment valider tout tes cours et tes crèdits). Si tu veux du challenge, va tout au sud-ouest de la map, tu y trouveras la salle ultime, le TLB comme on l'appelle dans le jargon. "
+bbcode_text = "Fèlicitations ! Tu es maintenant immatriculè.e. L'inscription ètait la partie facile (attends de voir comment valider tous tes cours et tes crèdits). Si tu veux du challenge, va tout au sud-ouest de la map. Tu y trouveras la salle ultime; le TLB comme on l'appelle dans le jargon. "
+text = "Fèlicitations ! Tu es maintenant immatriculè.e. L'inscription ètait la partie facile (attends de voir comment valider tous tes cours et tes crèdits). Si tu veux du challenge, va tout au sud-ouest de la map. Tu y trouveras la salle ultime; le TLB comme on l'appelle dans le jargon. "
 script = ExtResource( 8 )
 
 [node name="Button" type="Button" parent="Control/PopupDialog"]

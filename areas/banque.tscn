@@ -136,8 +136,8 @@ anchor_bottom = 1.0
 margin_right = -11.0
 theme = ExtResource( 15 )
 bbcode_enabled = true
-bbcode_text = "Ici c'est Internef, le bâtiment des HEC et Droit. Tu y trouveras une bibliothéque, ainsi qu'un des rares bancomats sur le campus (avec Anthropole). Tu as 1 QUESTIE à trouver ici."
-text = "Ici c'est Internef, le bâtiment des HEC et Droit. Tu y trouveras une bibliothéque, ainsi qu'un des rares bancomats sur le campus (avec Anthropole). Tu as 1 QUESTIE à trouver ici."
+bbcode_text = "Ici, c'est Internef, le bâtiment des HEC et Droit. Tu y trouveras une bibliothéque, ainsi que l'un des rares bancomats du campus (avec Anthropole). Tu as 1 QUESTIE à trouver ici."
+text = "Ici, c'est Internef, le bâtiment des HEC et Droit. Tu y trouveras une bibliothéque, ainsi que l'un des rares bancomats du campus (avec Anthropole). Tu as 1 QUESTIE à trouver ici."
 script = ExtResource( 16 )
 
 [node name="Button" type="Button" parent="CanvasLayer/Control/PopupDialog"]

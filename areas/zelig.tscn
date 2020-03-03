@@ -121,8 +121,8 @@ margin_top = -33.0
 margin_right = -11.0
 theme = ExtResource( 11 )
 bbcode_enabled = true
-bbcode_text = "Ici c'est Zelig, c'est un des rares lieux gèrè uniquement par des ètudiants pour des ètudiants. Tu y trouveras des canapès, des BDs, des baby-foots, des jeux, un bar (avec de la biére pas chére et du sans-alcool trop bon). Chaque jeudi, Zelig organise des concerts avec pleins d'artistes, passe une fois tu verras c'est sympa! Tu as 1 QUESTIE à trouver ici. "
-text = "Ici c'est Zelig, c'est un des rares lieux gèrè uniquement par des ètudiants pour des ètudiants. Tu y trouveras des canapès, des BDs, des baby-foots, des jeux, un bar (avec de la biére pas chére et du sans-alcool trop bon). Chaque jeudi, Zelig organise des concerts avec pleins d'artistes, passe une fois tu verras c'est sympa! Tu as 1 QUESTIE à trouver ici. "
+bbcode_text = "Ici, c'est Zelig, l'un des rares lieux gèrè uniquement par des ètudiants, pour des ètudiants. Tu y trouveras des canapès, des BDs, des baby-foots, des jeux, un bar (avec de la biére pas chére et du sans-alcool trop bon). Chaque jeudi, Zelig organise des concerts des artistes variès. Passe une fois, tu verras, c'est sympa! Tu as 1 QUESTIE à trouver ici. "
+text = "Ici, c'est Zelig, l'un des rares lieux gèrè uniquement par des ètudiants, pour des ètudiants. Tu y trouveras des canapès, des BDs, des baby-foots, des jeux, un bar (avec de la biére pas chére et du sans-alcool trop bon). Chaque jeudi, Zelig organise des concerts des artistes variès. Passe une fois, tu verras, c'est sympa! Tu as 1 QUESTIE à trouver ici. "
 script = ExtResource( 12 )
 
 [node name="Button" type="Button" parent="Control/PopupDialog"]

@@ -144,8 +144,8 @@ margin_top = -11.0
 margin_right = -11.0
 theme = ExtResource( 14 )
 bbcode_enabled = true
-bbcode_text = "Ici c'est le Geopolis, le bâtiment des Geosciences et des SSP. Tu y trouveras une cafètèria qui propose plus d'alternatives vègè voire des plats vegan, une bibliothéque, et Zelig. Tu as 1 QUESTIE à trouver ici. "
-text = "Ici c'est le Geopolis, le bâtiment des Geosciences et des SSP. Tu y trouveras une cafètèria qui propose plus d'alternatives vègè voire des plats vegan, une bibliothéque, et Zelig. Tu as 1 QUESTIE à trouver ici. "
+bbcode_text = "Ici, c'est le Geopolis, le bâtiment des Gèosciences et des SSP. Tu y trouveras une cafètèria qui propose notamment des alternatives vègè et parfois vegan, une bibliothéque et Zelig. Tu as 1 QUESTIE à trouver ici. "
+text = "Ici, c'est le Geopolis, le bâtiment des Gèosciences et des SSP. Tu y trouveras une cafètèria qui propose notamment des alternatives vègè et parfois vegan, une bibliothéque et Zelig. Tu as 1 QUESTIE à trouver ici. "
 script = ExtResource( 15 )
 
 [node name="Button" type="Button" parent="CanvasLayer/Control/PopupDialog"]

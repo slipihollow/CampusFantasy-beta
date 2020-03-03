@@ -119,10 +119,10 @@ autostart = true
 
 [node name="PopupDialog" type="PopupDialog" parent="Control"]
 visible = true
-margin_left = 4.68323
-margin_top = -324.806
-margin_right = 642.683
-margin_bottom = -250.806
+margin_left = 5.0
+margin_top = -325.0
+margin_right = 643.0
+margin_bottom = -235.0
 script = ExtResource( 17 )
 
 [node name="NinePatchRect" type="NinePatchRect" parent="Control/PopupDialog"]
@@ -137,12 +137,13 @@ margin_bottom = -20.0
 [node name="RichTextLabel" type="RichTextLabel" parent="Control/PopupDialog/NinePatchRect"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -10.9998
+margin_top = -15.0
+margin_right = -11.0
 margin_bottom = 7.0
 theme = ExtResource( 18 )
 bbcode_enabled = true
-bbcode_text = "Ici c'est l'Unithèque, le bâtiment de la Direction de l'Unil et le centre d'inscription. Tu devras pour t'inscrire correctement à l'Unil rècupèrer les 9 QUESTIES rèpartis partout sur le campus (sinon c'est pas drôle) pour dèbloquer ton sèsame universitaire, puis, revenir ici."
-text = "Ici c'est l'Unithèque, le bâtiment de la Direction de l'Unil et le centre d'inscription. Tu devras pour t'inscrire correctement à l'Unil rècupèrer les 9 QUESTIES rèpartis partout sur le campus (sinon c'est pas drôle) pour dèbloquer ton sèsame universitaire, puis, revenir ici."
+bbcode_text = "Ici, c'est l'Unithèque, le bâtiment regroupant la Direction de l'Unil et le service des immatriculations et inscriptions. Tu devras, pour t'inscrire correctement à l'Unil et dèbloquer ton sèsame universitaire, rècupèrer les 9 QUESTIES rèpartis partout sur le campus (sinon c'est pas drôle) , puis REVENIR ici."
+text = "Ici, c'est l'Unithèque, le bâtiment regroupant la Direction de l'Unil et le service des immatriculations et inscriptions. Tu devras, pour t'inscrire correctement à l'Unil et dèbloquer ton sèsame universitaire, rècupèrer les 9 QUESTIES rèpartis partout sur le campus (sinon c'est pas drôle) , puis REVENIR ici."
 script = ExtResource( 19 )
 
 [node name="Button" type="Button" parent="Control/PopupDialog"]
