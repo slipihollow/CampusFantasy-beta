@@ -14,7 +14,10 @@ func _ready():
 
 
 func _on_Button_pressed():
-	_on_PopupDialog_popup_hide()
+	if $NinePatchRect/RichTextLabel.are_all_char_displayed() == true:
+		_on_PopupDialog_popup_hide()
+	else:
+		$NinePatchRect/RichTextLabel.display_all_char()
 	pass	
 	
 func _on_PopupDialog_popup_hide():
