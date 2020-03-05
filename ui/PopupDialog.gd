@@ -10,5 +10,8 @@ func _ready():
 	popup()
 
 func _on_Button_pressed():
-	SceneManager.goto_scene("res://areas/inscri.tscn")
+	if $RichTextLabel.are_all_char_displayed() == true:
+		SceneManager.goto_scene("res://areas/inscri.tscn")
+	else:
+		$RichTextLabel.display_all_char()
 	pass # Replace with function body.
